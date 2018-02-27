@@ -1,0 +1,94 @@
+body {
+  font: 15px Arial, Helvetica, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #F4F4F4;
+  background: #d4e3fc;
+}
+
+/* Estilos goblaes */
+
+.contenedor {
+  width: 80%;
+  margin: auto;
+  overflow: hidden;
+}
+
+img {
+  width: 60px;
+}
+
+/* estilos cabecera titulo */
+
+header {
+  background: #24282B;
+  color: #FFFFFF;
+  padding-top: 30px;
+  min-height: 70px;
+  border-bottom: #1293D4 5px solid;
+}
+
+header #titulo {
+  float: left;
+}
+
+header #titulo h1 {
+  margin: 0;
+  float: right;
+  padding: 5px;
+}
+
+header .resaltado {
+  color: #1293D4;
+  font-weight: bold;
+}
+
+/* fin estilos cabecera titulo */
+
+/* estilos caja login */
+
+#caja {
+  min-height: 158px;
+  padding: 100px;
+  border-radius: 20px;
+  background: rgb(255, 255, 255);
+  color: black;
+  margin-top: 60px;
+  margin-bottom: 60px;
+  margin-left: 300px;
+  margin-right: 300px;
+  border: rgb(0, 0, 0) 1px solid;
+}
+
+#caja h1 {
+  text-align: center;
+  margin-top: -60px;
+  text-shadow: 1px 1px 4px black;
+}
+
+#caja input[type="email"], #caja input[type="password"] {
+  width: 300px;
+  height: 35px;
+}
+
+.boton-login {
+  background-color: #006e8c;
+  color: #FFFFFF;
+  text-align: center;
+  width: 300px;
+  height: 35px;
+}
+
+/* fin estilo caja login */
+
+/* estilos pie de pagina */
+
+footer {
+  padding: 10px;
+  margin-top: 10px;
+  color: #FFFFFF;
+  background-color: #1293D4;
+  text-align: center;
+}
+
+/* fin estilos pie de pagina */
