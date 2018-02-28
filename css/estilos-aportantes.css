@@ -1,0 +1,117 @@
+body {
+  font: 15px Arial, Helvetica, sans-serif;
+  padding: 0;
+  margin: 0;
+  background-color: #F4F4F4;
+}
+
+/* Estilos goblaes */
+
+.contenedor {
+  width: 80%;
+  margin: auto;
+  overflow: hidden;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+img {
+  width: 60px;
+}
+
+hr {
+  border: 1px dotted #000;
+}
+
+.boton1 {
+  height: 38px;
+  width: 100px;
+  background-color: #E8491D;
+  border: 0;
+  padding-left: 20px;
+  padding-right: 20px;
+  color: #FFFFFF;
+}
+
+/* Estilos Encabezado */
+
+header {
+  background: #24282B;
+  color: #FFFFFF;
+  padding-top: 30px;
+  min-height: 70px;
+  border-bottom: #1293D4 5px solid;
+}
+
+header a {
+  color: #FFFFFF;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 16px;
+}
+
+header li {
+  float: left;
+  /*hace dirigir las listas hacia la izquierda*/
+  display: inline;
+  /*Permite que las listas se vean seguidas en el menu*/
+  padding: 0 20px 0 20px;
+}
+
+header #marca {
+  float: left;
+}
+
+header #marca h1 {
+  margin: 0;
+  float: right;
+  padding: 5px;
+}
+
+header nav {
+  float: right;
+  margin-top: 10px;
+}
+
+header .resaltado, header .actual a {
+  color: #1293D4;
+  font-weight: bold;
+}
+
+header a:hover {
+  color: #CCCCCC;
+  font-weight: bold;
+}
+
+/*fin estilos titulo*/
+
+/* estilos bloque empresas aportantes */
+
+#aportantes h1 {
+  text-align: center;
+  text-transform: capitalize;
+  text-shadow: 1px 3px 1px black;
+  font-size: 3em;
+}
+
+#aportantes .caja {
+  position: relative;
+  float: left;
+  text-align: justify-content;
+  width: 20%;
+  height: 150px;
+  border: 1px dashed black;
+  margin: 20px;
+  /* background-color: #90caf9; */
+  background-color: #0000;
+  border-radius: 5px;
+}
+
+#aportantes .caja img {
+  width: 180px;
+  margin-left: 20px;
+  margin-top: 5px;
+}
